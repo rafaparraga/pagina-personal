@@ -1,0 +1,301 @@
+body {
+  background: #1F2631;
+  margin: 0 auto;
+  padding: 0;
+  color: white;
+}
+header {
+  width: 100%;
+}
+header img {
+  width: 100%;
+  height: 300px;
+}
+section {
+  margin: 0 auto;
+  width: 1000px;
+  height: 360px;
+  background: black;
+  position: relative;
+  bottom: 110px;
+  box-shadow: 0 25px 30px rgba(0,0,0,.7)
+}
+.contenido {
+  width: 600px;
+  height: 360px;
+  background-color: black;
+  float: left;
+
+}
+.imagen {
+  width: 400px;
+  height: 360px;
+  background-color: green;
+  float: left;
+  background: black;
+}
+.imagen img {
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 19% 100%);
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 55px;
+  margin: 0;
+  padding: 10px 10px;
+}
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  padding: 5px 10px 10px 10px;
+  margin: 0
+}
+ul {
+  margin-top: 0;
+}
+li {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0;
+  list-style: none;
+}
+a.redes {
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+a.redes:first-of-type{
+  padding-left: 50px;
+}
+article {
+
+  width: 1000px;
+  height: 50px;
+  position: relative;
+  bottom:70px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  background: black;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 25px 30px rgba(0,0,0,.7)
+}
+div.botones{
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+article.enlaces {
+  margin: 0 auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+a:first-child{
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 800px) {
+ section {
+   width: 780px;
+
+}
+div.contenido {
+  width: 380px;
+}
+div.imagen {
+  width: 390px;
+}
+img.perfil {
+  width: 300;
+}
+h1 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 14px;
+}
+a.redes {
+  padding-right: 10px;
+}
+article.enlaces {
+  width: auto;
+}
+}
+@media screen and (max-width: 768px){
+  section {
+    width: 553px;
+    bottom: 225px;
+}
+.contenido {
+  position: relative;
+  top: 512px;
+  width: 553px;
+}
+.perfil {
+  position: relative;
+  bottom: 360px;
+}
+.imagen img {
+  clip-path:none;
+  width: 553px;
+}
+div.imagen {
+    width: 552px;
+}
+div.contenido {
+    width: 552px;
+    text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 22px;
+}
+li {
+  font-size: 20px;
+}
+ul {
+  padding-left: 0;
+}
+a.redes:first-of-type {
+    padding-left: 0;
+}
+article.enlaces {
+    display: table;
+    padding-top: 42px;
+    font-size: 22px;
+}
+a:first-child {
+    margin-right: 42px;
+}
+.boton {
+  font-size: 37px;
+}
+}
+
+@media screen and (max-width: 414px) {
+
+  section {
+    width: 390px;
+    bottom: 225px;
+  }
+
+  .contenido {
+    width: 390px;
+    position: relative;
+    top: 351px;
+  }
+div.imagen {
+    width: 390px;
+}
+div.contenido {
+    width: 386px;
+    text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+h3 {
+    font-size: 19px;
+}
+li {
+    font-size: 16px;
+}
+.boton {
+    font-size: 24px;
+}
+ul {
+  margin-bottom: 10px;
+}
+  .perfil {
+    position: relative;
+    bottom: 360px;
+  }
+  .imagen img {
+    clip-path:none;
+    width: 390px;
+  }
+  article.enlaces {
+    display: table;
+    bottom: 177px;
+  }
+  li {
+    padding: 10px 10px;
+    font-size: 17px;
+  }
+  a.redes:first-of-type {
+    padding-left: 25px;
+}
+.boton {
+  font-size: 21px;
+}
+article.enlaces {
+  padding-top: 0;
+}
+}
+@media screen and (max-width: 375px){
+section {
+  width: 340px;
+  }
+.imagen img {
+    width: 340px;
+}
+  div.contenido {
+  width: 340px;
+}
+div.imagen {
+    width: 340px;
+}
+.contenido {
+    top: 302px;
+    text-align: center;
+  }
+ul {
+    padding: 0;
+  }
+h1 {
+  font-size: 33px;
+
+  }
+h3 {
+    font-size: 16px;
+}
+a.redes:first-of-type {
+  padding-left: 10px;
+}
+a:first-child {
+    margin-right: 25px;
+}
+}
+@media screen and (max-width: 320px){
+  section {
+    width: 290px;
+    top: -266px;
+  }
+.imagen img {
+      width: 290px;
+   }
+div.contenido {
+   width: 290px;
+   top: 263px;
+ }
+ div.imagen {
+     width: 290px;
+ }
+ a.redes {
+     padding-right: 16px;
+ }
+ .boton {
+   font-size: 18px;
+ }
+
+
+}
