@@ -179,6 +179,38 @@ a:first-child {
   font-size: 37px;
 }
 }
+@media screen and (max-width: 508px){
+  section {
+    width: 460px;
+    bottom: 225px;
+  }
+
+  .contenido {
+    width: 460px;
+    position: relative;
+    top: 414px;
+  }
+
+  .imagen img {
+      width: 460px;
+  }
+  div.contenido {
+    width: 460px;
+}
+div.imagen {
+    width: 460px;
+}
+.boton {
+    font-size: 29px;
+}
+article.enlaces {
+    padding-top: 0px;
+}
+
+
+  }
+
+
 
 @media screen and (max-width: 414px) {
 
