@@ -179,7 +179,34 @@ a:first-child {
   font-size: 37px;
 }
 }
-@media screen and (max-width: 508px){
+@media screen and (max-width: 555px) {
+  section {
+      width: 460px;
+      bottom: 225px;
+  }
+  div.contenido {
+      width: 460px;
+  }
+  div.imagen {
+      width: 460px;
+  }
+  .imagen img {
+  width: 460px;
+}
+.contenido {
+    top: 425px;
+}
+article.enlaces {
+    padding-top:0;
+}
+.boton {
+    font-size: 30px;
+
+}
+
+
+
+@media screen and (max-width: 500px){
   section {
     width: 460px;
     bottom: 225px;
@@ -204,15 +231,11 @@ div.imagen {
     font-size: 29px;
 }
 article.enlaces {
-    padding-top: 0px;
+    padding-top: px;
+}
 }
 
-
-  }
-
-
-
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 418px) {
 
   section {
     width: 390px;
